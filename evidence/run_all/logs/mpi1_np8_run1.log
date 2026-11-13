@@ -1,0 +1,47 @@
+=== MPI v1 (static blocks by file count) | processes p=8 ===
+Tiempo de ejecución: 6.751815 segundos
+
+Dataset procesado: /app/dataset
+Archivos procesados: 3000
+Total de tokens leídos: 44951458
+Total de ocurrencias encontradas: 3631778
+Resultados guardados en: /app/dataset/mpi1_results.csv
+
+Per-process report:
+  rank  files   Mchars     tokens  local_time_s
+     0    375    36.73    6002531      6.617229
+     1    375    29.37    4801328      5.543466
+     2    375    37.82    6180576      6.721324
+     3    375    36.57    5976248      6.655802
+     4    375    32.32    5281651      6.166419
+     5    375    33.86    5535328      6.324129
+     6    375    33.10    5409609      6.191494
+     7    375    35.28    5764187      6.530981
+
+PROC rank=0 files=375 chars=36729838 tokens=6002531 local_time=6.617229
+PROC rank=1 files=375 chars=29365793 tokens=4801328 local_time=5.543466
+PROC rank=2 files=375 chars=37820796 tokens=6180576 local_time=6.721324
+PROC rank=3 files=375 chars=36566727 tokens=5976248 local_time=6.655802
+PROC rank=4 files=375 chars=32323435 tokens=5281651 local_time=6.166419
+PROC rank=5 files=375 chars=33864681 tokens=5535328 local_time=6.324129
+PROC rank=6 files=375 chars=33102929 tokens=5409609 local_time=6.191494
+PROC rank=7 files=375 chars=35279860 tokens=5764187 local_time=6.530981
+LOCAL_MEAN=6.343856
+LOCAL_MAX=6.721324
+LOCAL_MIN=5.543466
+LI=1.0595
+SPREAD=0.1857
+
+Top 10 palabras de consulta en el corpus:
+  a: 785774
+  para: 392156
+  sus: 228913
+  otros: 105530
+  ante: 99832
+  unos: 88794
+  otra: 83901
+  vosotros: 61617
+  mios: 58420
+  tuya: 56635
+
+EXECUTION_TIME=6.751815

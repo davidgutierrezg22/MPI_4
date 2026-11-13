@@ -1,0 +1,6 @@
+/app/dataset rep1: listdir+isfile=4.377s  scandir=0.011s  files=3000
+/app/dataset rep2: listdir+isfile=4.179s  scandir=0.014s  files=3000
+/app/dataset rep3: listdir+isfile=4.205s  scandir=0.012s  files=3000
+/work/dataset rep1: listdir+isfile=0.018s  scandir=0.002s  files=3000
+/work/dataset rep2: listdir+isfile=0.017s  scandir=0.003s  files=3000
+/work/dataset rep3: listdir+isfile=0.018s  scandir=0.002s  files=3000

@@ -1,0 +1,73 @@
+=== local warm-up ===
+  mpi1        Tiempo de ejecución: 2.329462 segundos LI=1.1219 
+  mpi2 c=1    Tiempo de ejecución: 2.431820 segundos LI=1.0110 
+  mpi2 c=4    Tiempo de ejecución: 2.186877 segundos LI=1.0215 
+  mpi2 c=16   Tiempo de ejecución: 2.164639 segundos LI=1.0149 
+  mpi2 c=64   Tiempo de ejecución: 2.091844 segundos LI=1.1010 
+=== local round 1 ===
+  mpi1        Tiempo de ejecución: 2.211003 segundos LI=1.1118 
+  mpi2 c=1    Tiempo de ejecución: 2.448047 segundos LI=1.0112 
+  mpi2 c=4    Tiempo de ejecución: 2.390695 segundos LI=1.0165 
+  mpi2 c=16   Tiempo de ejecución: 2.282324 segundos LI=1.0219 
+  mpi2 c=64   Tiempo de ejecución: 2.176487 segundos LI=1.0944 
+=== local round 2 ===
+  mpi1        Tiempo de ejecución: 2.399550 segundos LI=1.0914 
+  mpi2 c=1    Tiempo de ejecución: 2.550822 segundos LI=1.0301 
+  mpi2 c=4    Tiempo de ejecución: 2.658090 segundos LI=1.0117 
+  mpi2 c=16   Tiempo de ejecución: 2.939519 segundos LI=1.0175 
+  mpi2 c=64   Tiempo de ejecución: 2.554545 segundos LI=1.1077 
+=== local round 3 ===
+  mpi1        Tiempo de ejecución: 2.538731 segundos LI=1.1381 
+  mpi2 c=1    Tiempo de ejecución: 2.354049 segundos LI=1.0129 
+  mpi2 c=4    Tiempo de ejecución: 2.121330 segundos LI=1.0154 
+  mpi2 c=16   Tiempo de ejecución: 2.075968 segundos LI=1.0156 
+  mpi2 c=64   Tiempo de ejecución: 2.383164 segundos LI=1.0881 
+=== local round 4 ===
+  mpi1        Tiempo de ejecución: 2.141943 segundos LI=1.0912 
+  mpi2 c=1    Tiempo de ejecución: 2.385338 segundos LI=1.0118 
+  mpi2 c=4    Tiempo de ejecución: 2.146019 segundos LI=1.0151 
+  mpi2 c=16   Tiempo de ejecución: 2.010530 segundos LI=1.0143 
+  mpi2 c=64   Tiempo de ejecución: 2.185262 segundos LI=1.1029 
+=== local round 5 ===
+  mpi1        Tiempo de ejecución: 2.312857 segundos LI=1.1351 
+  mpi2 c=1    Tiempo de ejecución: 2.486627 segundos LI=1.0152 
+  mpi2 c=4    Tiempo de ejecución: 2.397126 segundos LI=1.0127 
+  mpi2 c=16   Tiempo de ejecución: 2.210300 segundos LI=1.0142 
+  mpi2 c=64   Tiempo de ejecución: 2.368053 segundos LI=1.0931 
+=== bind warm-up ===
+  mpi1        Tiempo de ejecución: 5.695541 segundos LI=1.0691 
+  mpi2 c=1    Tiempo de ejecución: 5.416153 segundos LI=1.0087 
+  mpi2 c=4    Tiempo de ejecución: 5.496970 segundos LI=1.0126 
+  mpi2 c=16   Tiempo de ejecución: 5.064355 segundos LI=1.0101 
+  mpi2 c=64   Tiempo de ejecución: 5.404093 segundos LI=1.0886 
+=== bind round 1 ===
+  mpi1        Tiempo de ejecución: 5.487562 segundos LI=1.0682 
+  mpi2 c=1    Tiempo de ejecución: 5.556922 segundos LI=1.0089 
+  mpi2 c=4    Tiempo de ejecución: 5.491556 segundos LI=1.0104 
+  mpi2 c=16   Tiempo de ejecución: 5.104858 segundos LI=1.0089 
+  mpi2 c=64   Tiempo de ejecución: 5.654724 segundos LI=1.0765 
+=== bind round 2 ===
+  mpi1        Tiempo de ejecución: 5.382238 segundos LI=1.0626 
+  mpi2 c=1    Tiempo de ejecución: 5.758762 segundos LI=1.0117 
+  mpi2 c=4    Tiempo de ejecución: 5.417893 segundos LI=1.0116 
+  mpi2 c=16   Tiempo de ejecución: 5.015950 segundos LI=1.0111 
+  mpi2 c=64   Tiempo de ejecución: 5.373048 segundos LI=1.0780 
+=== bind round 3 ===
+  mpi1        Tiempo de ejecución: 5.287545 segundos LI=1.0555 
+  mpi2 c=1    Tiempo de ejecución: 5.699658 segundos LI=1.0081 
+  mpi2 c=4    Tiempo de ejecución: 5.551211 segundos LI=1.0153 
+  mpi2 c=16   Tiempo de ejecución: 5.487328 segundos LI=1.0167 
+  mpi2 c=64   Tiempo de ejecución: 5.820213 segundos LI=1.0729 
+=== bind round 4 ===
+  mpi1        Tiempo de ejecución: 5.874161 segundos LI=1.0709 
+  mpi2 c=1    Tiempo de ejecución: 5.362361 segundos LI=1.0107 
+  mpi2 c=4    Tiempo de ejecución: 5.341303 segundos LI=1.0102 
+  mpi2 c=16   Tiempo de ejecución: 5.360742 segundos LI=1.0067 
+  mpi2 c=64   Tiempo de ejecución: 5.569017 segundos LI=1.1002 
+=== bind round 5 ===
+  mpi1        Tiempo de ejecución: 5.408524 segundos LI=1.0635 
+  mpi2 c=1    Tiempo de ejecución: 5.455859 segundos LI=1.0080 
+  mpi2 c=4    Tiempo de ejecución: 5.398806 segundos LI=1.0123 
+  mpi2 c=16   Tiempo de ejecución: 5.363297 segundos LI=1.0108 
+  mpi2 c=64   Tiempo de ejecución: 5.333771 segundos LI=1.0826 
+Done

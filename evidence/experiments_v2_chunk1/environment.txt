@@ -1,0 +1,8 @@
+date=2026-11-13T15:30:29Z
+nproc=12
+np=9 runs=7 native_runs=5
+Python 3.8.20
+mpi4py 4.1.1
+mpirun (Open MPI) 4.1.4
+model name	: AMD Ryzen 5 5500
+MemTotal:       16306832 kB

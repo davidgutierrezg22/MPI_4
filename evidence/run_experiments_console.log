@@ -1,0 +1,72 @@
+=== scenario bind (/app), warm-up ===
+  warmup baseline  Tiempo de ejecución: 30.936707 segundos 
+  warmup mpi1      Tiempo de ejecución: 5.570352 segundos LI=1.0605 
+  warmup mpi2      Tiempo de ejecución: 5.231770 segundos LI=1.0073 
+  warmup mpi2lpt   Tiempo de ejecución: 6.136843 segundos LI=1.0314 
+=== scenario bind, round 1/7 ===
+  baseline  Tiempo de ejecución: 29.989533 segundos 
+  mpi1      Tiempo de ejecución: 5.637058 segundos LI=1.0631 
+  mpi2      Tiempo de ejecución: 5.107535 segundos LI=1.0058 
+  mpi2lpt   Tiempo de ejecución: 6.395651 segundos LI=1.0370 
+=== scenario bind, round 2/7 ===
+  baseline  Tiempo de ejecución: 30.195362 segundos 
+  mpi1      Tiempo de ejecución: 5.724911 segundos LI=1.0507 
+  mpi2      Tiempo de ejecución: 5.172936 segundos LI=1.0137 
+  mpi2lpt   Tiempo de ejecución: 6.143269 segundos LI=1.0294 
+=== scenario bind, round 3/7 ===
+  baseline  Tiempo de ejecución: 30.074864 segundos 
+  mpi1      Tiempo de ejecución: 5.420478 segundos LI=1.0609 
+  mpi2      Tiempo de ejecución: 5.232105 segundos LI=1.0081 
+  mpi2lpt   Tiempo de ejecución: 5.615356 segundos LI=1.0369 
+=== scenario bind, round 4/7 ===
+  baseline  Tiempo de ejecución: 30.029238 segundos 
+  mpi1      Tiempo de ejecución: 5.213802 segundos LI=1.0525 
+  mpi2      Tiempo de ejecución: 5.241903 segundos LI=1.0074 
+  mpi2lpt   Tiempo de ejecución: 5.936987 segundos LI=1.0387 
+=== scenario bind, round 5/7 ===
+  baseline  Tiempo de ejecución: 29.799421 segundos 
+  mpi1      Tiempo de ejecución: 5.293589 segundos LI=1.0763 
+  mpi2      Tiempo de ejecución: 5.221740 segundos LI=1.0099 
+  mpi2lpt   Tiempo de ejecución: 5.844855 segundos LI=1.0441 
+=== scenario bind, round 6/7 ===
+  baseline  Tiempo de ejecución: 30.280024 segundos 
+  mpi1      Tiempo de ejecución: 5.823140 segundos LI=1.0692 
+  mpi2      Tiempo de ejecución: 4.992904 segundos LI=1.0059 
+  mpi2lpt   Tiempo de ejecución: 5.830460 segundos LI=1.0332 
+=== scenario bind, round 7/7 ===
+  baseline  Tiempo de ejecución: 30.267178 segundos 
+  mpi1      Tiempo de ejecución: 5.507616 segundos LI=1.0631 
+  mpi2      Tiempo de ejecución: 5.042453 segundos LI=1.0074 
+  mpi2lpt   Tiempo de ejecución: 5.859570 segundos LI=1.0374 
+=== copying project to container filesystem (/work) ===
+=== scenario local (/work), warm-up ===
+  warmup baseline  Tiempo de ejecución: 9.974170 segundos 
+  warmup mpi1      Tiempo de ejecución: 2.161646 segundos LI=1.0813 
+  warmup mpi2      Tiempo de ejecución: 2.350946 segundos LI=1.0104 
+  warmup mpi2lpt   Tiempo de ejecución: 2.588809 segundos LI=1.1487 
+=== scenario local, round 1/5 ===
+  baseline  Tiempo de ejecución: 10.210378 segundos 
+  mpi1      Tiempo de ejecución: 2.313752 segundos LI=1.1346 
+  mpi2      Tiempo de ejecución: 1.991063 segundos LI=1.0197 
+  mpi2lpt   Tiempo de ejecución: 2.270487 segundos LI=1.1056 
+=== scenario local, round 2/5 ===
+  baseline  Tiempo de ejecución: 9.696642 segundos 
+  mpi1      Tiempo de ejecución: 2.237639 segundos LI=1.1061 
+  mpi2      Tiempo de ejecución: 1.958401 segundos LI=1.0167 
+  mpi2lpt   Tiempo de ejecución: 2.097616 segundos LI=1.0783 
+=== scenario local, round 3/5 ===
+  baseline  Tiempo de ejecución: 9.796358 segundos 
+  mpi1      Tiempo de ejecución: 2.168428 segundos LI=1.0966 
+  mpi2      Tiempo de ejecución: 2.115923 segundos LI=1.0136 
+  mpi2lpt   Tiempo de ejecución: 2.126627 segundos LI=1.0943 
+=== scenario local, round 4/5 ===
+  baseline  Tiempo de ejecución: 9.791246 segundos 
+  mpi1      Tiempo de ejecución: 2.064271 segundos LI=1.1028 
+  mpi2      Tiempo de ejecución: 2.062833 segundos LI=1.0115 
+  mpi2lpt   Tiempo de ejecución: 2.186340 segundos LI=1.0577 
+=== scenario local, round 5/5 ===
+  baseline  Tiempo de ejecución: 10.020732 segundos 
+  mpi1      Tiempo de ejecución: 2.535415 segundos LI=1.1835 
+  mpi2      Tiempo de ejecución: 1.993282 segundos LI=1.0204 
+  mpi2lpt   Tiempo de ejecución: 2.193476 segundos LI=1.0673 
+Done. Logs in /app/results/experiments

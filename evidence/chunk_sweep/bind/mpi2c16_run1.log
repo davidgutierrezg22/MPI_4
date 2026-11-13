@@ -1,0 +1,49 @@
+=== MPI v2 (dynamic self-scheduling, chunk=16) | processes p=9 ===
+Tiempo de ejecución: 5.104858 segundos
+
+Dataset procesado: /app/dataset
+Archivos procesados: 3000
+Total de tokens leídos: 44951458
+Total de ocurrencias encontradas: 3631778
+Resultados guardados en: /app/dataset/mpi2_results.csv
+
+Per-process report:
+  rank  files   Mchars     tokens  local_time_s
+     0    336    30.11    4921065      5.027507
+     1    304    31.82    5199864      4.965104
+     2    336    30.44    4972993      5.055489
+     3    336    29.76    4864812      4.935065
+     4    336    30.77    5027871      5.065788
+     5    320    31.14    5089545      5.073365
+     6    352    29.65    4846804      5.055817
+     7    360    29.90    4885587      5.043754
+     8    320    31.46    5142917      5.078087
+
+PROC rank=0 files=336 chars=30109003 tokens=4921065 local_time=5.027507
+PROC rank=1 files=304 chars=31822270 tokens=5199864 local_time=4.965104
+PROC rank=2 files=336 chars=30435207 tokens=4972993 local_time=5.055489
+PROC rank=3 files=336 chars=29761335 tokens=4864812 local_time=4.935065
+PROC rank=4 files=336 chars=30766936 tokens=5027871 local_time=5.065788
+PROC rank=5 files=320 chars=31139422 tokens=5089545 local_time=5.073365
+PROC rank=6 files=352 chars=29654672 tokens=4846804 local_time=5.055817
+PROC rank=7 files=360 chars=29903756 tokens=4885587 local_time=5.043754
+PROC rank=8 files=320 chars=31461458 tokens=5142917 local_time=5.078087
+LOCAL_MEAN=5.033331
+LOCAL_MAX=5.078087
+LOCAL_MIN=4.935065
+LI=1.0089
+SPREAD=0.0284
+
+Top 10 palabras de consulta en el corpus:
+  a: 785774
+  para: 392156
+  sus: 228913
+  otros: 105530
+  ante: 99832
+  unos: 88794
+  otra: 83901
+  vosotros: 61617
+  mios: 58420
+  tuya: 56635
+
+EXECUTION_TIME=5.104858
